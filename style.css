@@ -1,10 +1,115 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;1,700&display=swap');
 
 *{
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+:root {
+  --line-border-fill: #DD9b1c;
+  --line-border-empty: #fff;
+}
+
+
+/*--------------------desktop view--------------------*/
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: var(--line-border-fill);
+  color: var(--line-border-empty);
+  overflow-x: hidden;
+}
+
+/*----NAVBAR------*/
+.navbar{
+  width: 100vw;
+  height: 100px;
+  border-bottom: 1px solid #C26A17;
+}
+
+.intro, .profile, .journey, .hobbies{
+  margin: 40px 300px;
+  text-align: center;
+}
+
+h1{
+  text-align: left;
+}
+
+.logo-container{
+  float: left;
+  margin: 40px;
+  padding: auto;
+}
+
+.nav-links-container{
+  justify-content: center;
+  float: right;
+  margin: 40px;
+  padding: auto;
+
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+.nav-links li{
+list-style-type: none;
+}
+
+.nav-links li a{
+  text-decoration: none;
+  color: var(--line-border-empty);
+}
+
+/*-----INTRO SECTION-----*/
+.intro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.intro-container{
+ width: 400px;
+ max-width: 100%;
+}
+.intro-container p{
+  text-align: center; 
+}
+
+/*-----PROFILE IMAGE------*/
+.profile{
+  height: auto;
+}
+.image-container{
+ height: fit-content;
+}
+.image-container img{
+  max-width: 35%;
+  box-shadow: -8px 8px #A67415;
+}
+
+/*-------JOURNEY SECTION------*/
+.journey-content p, .hobbies-content p{
+  text-align: left;
+  font-size: 24px;
+  line-height: 34px;
+ margin: 25px 40px 0 0;
+}
+
+/*-------HOBBIES SECTION------*/
+.hobbies{
+  padding-bottom: 40px;
+}
+
+/*---------FOOTER----------*/
+.footer{
+  border-top: 1px solid #C26A17;
 }
