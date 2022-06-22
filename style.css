@@ -12,19 +12,14 @@
 }
 
 
-/*--------------------desktop view--------------------*/
-body{
-  font-family: 'IBM Plex Sans', sans-serif;
-  background-color: var(--line-border-fill);
-  color: var(--line-border-empty);
-  overflow-x: hidden;
-}
+/*--------------------------------------------*/
+/*desktop view*/
+@media only screen and (min-width: 1000px){
 
 /*----NAVBAR------*/
 .navbar{
   width: 100vw;
   height: 100px;
-  border-bottom: 1px solid #C26A17;
 }
 
 .intro, .profile, .journey, .hobbies{
@@ -34,6 +29,7 @@ body{
 
 h1{
   text-align: left;
+  padding-bottom: 20px;
 }
 
 .logo-container{
@@ -53,7 +49,6 @@ h1{
 .nav-links{
   display: flex;
   justify-content: space-evenly;
-  text-decoration: none;
 }
 
 .nav-links li{
@@ -101,7 +96,11 @@ list-style-type: none;
   text-align: left;
   font-size: 24px;
   line-height: 34px;
- margin: 25px 40px 0 0;
+  margin: 25px 40px 0 0;
+}
+
+.journey-container{
+  padding-bottom: 50px;
 }
 
 /*-------HOBBIES SECTION------*/
@@ -110,6 +109,58 @@ list-style-type: none;
 }
 
 /*---------FOOTER----------*/
+.footer-container{
+margin: 40px;
+display: flex;
+justify-content: space-evenly;
+}
+
+#envelope, #linked{
+  font-size: 48px;
+  transform: translateY(10px);
+  width: fit-content;
+  margin: 15px;
+}
+
+}
+
+/*-----------------------------------------------------------------------*/
+
+/*OUTSIDE OF MEDIA QUERIES*/
+body{
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: var(--line-border-fill);
+  color: var(--line-border-empty);
+  overflow-x: hidden;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+/*NAVBAR*/
+.navbar{
+  border-bottom: 1px solid #C26A17;
+}
+
+/*---------FOOTER----------*/
 .footer{
   border-top: 1px solid #C26A17;
+}
+
+#envelope, #linked{
+  color: #C26A17;
+}
+
+.footer-container a{
+  color: var(--line-border-empty);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-container a:hover{
+  color: #C26A17;
+  transition: 0.2s;
+}
+
+.fa-envelope, .fa-linkedin{
+  filter: drop-shadow(0px 4px 2px #b47e16);
 }
