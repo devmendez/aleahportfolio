@@ -15,6 +15,10 @@
 /*--------------------------------------------*/
 /*desktop view*/
 @media only screen and (min-width: 1000px){
+  body{
+    font-size: 24px;
+    line-height: 36px;
+  }
 
 /*----NAVBAR------*/
 .navbar{
@@ -30,6 +34,7 @@
 h1{
   text-align: left;
   padding-bottom: 20px;
+  font-size: 64px;
 }
 
 .logo-container{
@@ -66,7 +71,7 @@ list-style-type: none;
   align-items: center;
   justify-content: center;
   font-size: 24px;
-  line-height: 34px;
+  line-height: 36px;
   text-align: center;
   padding-top: 20px;
 }
@@ -95,7 +100,7 @@ list-style-type: none;
 .journey-content p, .hobbies-content p{
   text-align: left;
   font-size: 24px;
-  line-height: 34px;
+  line-height: 36px;
   margin: 25px 40px 0 0;
 }
 
@@ -109,17 +114,23 @@ list-style-type: none;
 }
 
 /*---------FOOTER----------*/
+.footer{
+  padding: 40px 40px 40px 280px;
+}
 .footer-container{
-margin: 40px;
-display: flex;
-justify-content: space-evenly;
+display: inline-flex;
+justify-content: space-around;
 }
 
 #envelope, #linked{
-  font-size: 48px;
+  font-size: 54px;
+  font-weight: 100;
   transform: translateY(10px);
-  width: fit-content;
-  margin: 15px;
+  margin: 20px;
+}
+#linked{
+  margin-left: 80px;
+  height: 10px;
 }
 
 }
@@ -155,6 +166,7 @@ body{
   color: var(--line-border-empty);
   text-decoration: none;
   cursor: pointer;
+  font-weight: 100;
 }
 
 .footer-container a:hover{
@@ -163,5 +175,5 @@ body{
 }
 
 .fa-envelope, .fa-linkedin{
-  filter: drop-shadow(0px 4px 2px #b47e16);
+  filter: drop-shadow(-4px 4px 4px #b47e16);
 }

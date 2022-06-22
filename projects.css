@@ -1,0 +1,61 @@
+
+/*desktop view*/
+@media only screen and (min-width: 1000px){
+.project-intro, .essay{
+  margin: 40px 300px; 
+}
+
+.project-intro{
+  height: 20vh;
+}
+
+.essay-container{
+  margin-top: 100px;
+}
+
+.essay-block{
+  height: 50vh;
+  margin: 40px 0 60px;
+}
+
+.essay-header, .essay-description{
+  padding-bottom: 30px;
+}
+.essay-genre{
+  padding-bottom: 8px;
+}
+.essay-pdf{
+  padding-bottom: 40px;
+}
+.essay-social-media{
+  display: flex;
+}
+
+.fa-heart, .fa-share-nodes{
+  font-size: 40px;
+  font-weight: 100;
+}
+.fa-heart{
+  margin-right: 40px;
+}
+
+
+
+}
+
+/*--------------------------------------------*/
+/*OUTSIDE OF MEDIA QUERIES*/
+.essay-genre{
+  font-weight: 100;
+}
+
+.essay-pdf a{
+  font-weight: bold;
+  filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.5));
+  color: #fff;
+  text-decoration: none;
+}
+
+.fa-heart, .fa-share-nodes{
+  filter: drop-shadow(-4px 4px 4px #b47e16);
+}
