@@ -1,0 +1,116 @@
+
+/*------------------------------------------------*/
+/*desktop view*/
+@media only screen and (min-width: 1000px){
+
+/*----MAIN CONTAINER-----*/
+.main-container{
+  display: grid;
+  grid-template-areas: 
+  "image education"
+  "skills feedback"
+  "tools feedback"; 
+  margin: 40px 300px;
+}
+
+.education, .feedback{
+  margin-top: 75px;
+  width: 500px;
+}
+
+.skills{
+  line-height: 60px;
+  margin-top: 60px;
+}
+.tools{
+  line-height: 60px;
+  margin: -160px 0 60px;
+}
+
+
+/*----IMAGE SECTION---*/
+.image-container img{
+  max-width: 90%;
+  margin-top: 40px;
+}
+
+/*----EDUCATION SECTION---*/
+.education, .feedback{
+  padding-left: 20px;
+}
+.education-header-container, .feedback-header{
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.education-name-year-container, .feedback-name-year-container{
+  display: flex;
+}
+
+.education-school-container{
+  margin-bottom: 40px;
+}
+.school-year, .feedback-year{
+  margin-left: 40px;
+  text-align: right;
+  font-weight: 100;
+}
+.year1, .feedback-year{
+  padding-left: 90px;
+}
+.gpa, .feedback-title{
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+.content2, .feedback-content li{
+margin-left: 1.8em;
+}
+.feedback-content li{
+  padding-bottom: 40px;
+}
+
+/*PDF*/
+.pdf{
+  padding-left: 40px;
+  padding-top: 8px;
+}
+
+/*------QUOTE-----*/
+.quote{
+ height: 70vh;
+}
+.quote-content{
+  display: inline-flex;
+  margin-left: 200px;
+  padding: 200px 0 0 100px;
+}
+.quote-author{
+  text-align: center;
+  padding: 50px 0 0 100px;
+}
+.air-quotes{
+  font-size: 80px;
+  padding-right: 20px;
+  color: #C26A17;
+}
+
+
+}
+
+
+/*--------------------------------------------*/
+/*OUTSIDE OF MEDIA QUERIES*/
+.skills-content li, .tools-content li{
+  list-style-type: none;
+}
+
+.school-name, .feedback-name{
+  font-weight: bold;
+}
+.pdf a{
+  font-weight: bold;
+  filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.5));
+  color: #fff;
+  text-decoration: none;
+}
+
