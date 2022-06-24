@@ -22,6 +22,9 @@
   line-height: 60px;
   margin-top: 60px;
 }
+.skills-header, .tools-header{
+  padding-bottom: 30px;
+}
 .tools{
   line-height: 60px;
   margin: -160px 0 60px;
@@ -32,6 +35,7 @@
 .image-container img{
   max-width: 90%;
   margin-top: 40px;
+  height: 70vh;
 }
 
 /*----EDUCATION SECTION---*/
@@ -54,6 +58,9 @@
   margin-left: 40px;
   text-align: right;
   font-weight: 100;
+}
+.school-1{
+  padding-bottom: 20px;
 }
 .year1, .feedback-year{
   padding-left: 90px;
