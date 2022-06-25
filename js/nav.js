@@ -6,7 +6,7 @@ nav.innerHTML = `
 <div class="navbar" id="navbar">
   <div class="navbar-container">
     <div class="logo-container">
-    <img src="./images/ar.png" id="logo" alt="aleah logo"></a>
+    <img src="./images/ar.png" id="logo" alt="aleah logo">
     </div>
     <div class="nav-links-container">
       <ul class="nav-links" id="Navigation">
@@ -24,25 +24,6 @@ nav.innerHTML = `
 }
 
 createNav ();
-
-
-//When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
-
-//Get the navbar
-var navbar = document.getElementById("navbar");
-
-//Get the offset position of the navbar
-var sticky = navbar.offsetTop;
-
-//Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-    if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-    }else {
-        navbar.classList.remove("sticky");
-    }
-}
 
 
 // //Hamburger menu

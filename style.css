@@ -12,7 +12,7 @@
 }
 
 /* mobile view */
-@media only screen and (max-width: 1000px){ 
+@media only screen and (max-width: 968px){ 
   /*-----------nav section---------------*/
   #logo{
       width: 55px;
@@ -94,12 +94,8 @@
 /*--------------------------------------------*/
 /*desktop view*/
 @media only screen and (min-width: 1000px){
+ 
 /*----NAVBAR------*/
-.navbar{
-  width: 100%;
-  height: 115px;
-}
-
 .menu-icon{
   display: none;
 }
@@ -130,21 +126,28 @@ h1{
   left: 50px
 }
 
+.navbar{
+  height: 115px;
+  width: 100%;
+}
+
 .nav-links-container{
   justify-content: center;
   float: right;
   margin: 40px;
   padding: auto;
-
 }
 
 .nav-links{
   display: flex;
-  justify-content: space-evenly;
+  width: 100%;
+  justify-content: center;
 }
 
 .nav-links li{
 list-style-type: none;
+margin: 0;
+padding: 5px;
 }
 
 .navbar li a {
@@ -167,11 +170,6 @@ list-style-type: none;
   filter: drop-shadow(-6px 5px 4px #A67415);
   font-size: 32px;
   font-weight: bold;
-}
-
-/*-----MAIN SECTION------*/
-.main-container{
-  height: auto;
 }
 
 /*-----INTRO SECTION-----*/
@@ -254,32 +252,35 @@ body{
   overflow-x: hidden;
   font-size: 24px;
   line-height: 36px;
+  height: 100vh;
+}
+
+/*MAIN CONTAINER*/
+.main-container{
+  padding-top: 120px;
 }
 
 /*NAVBAR*/
 #navbar{
   background-color: var(--line-border-fill);
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
 }
 
 .navbar{
   border-bottom: 2px solid #C26A17;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
 }
 
 #logo{
   filter: drop-shadow(-4px 4px 4px #A67415);
 }
 
-.sticky {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 999;
-}
-.sticky + .main-container {
-  padding-top: 60px;
-}
 
 /*---------FOOTER----------*/
 .footer{
