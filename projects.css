@@ -49,6 +49,9 @@ margin-bottom: 40px;
 .fa-heart{
   margin-right: 80px;
 }
+#envelope{
+  transform: translateY(0px); 
+}
 
 
 

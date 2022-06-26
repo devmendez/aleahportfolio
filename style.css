@@ -236,11 +236,11 @@ justify-content: space-around;
   font-size: 54px;
   font-weight: 100; 
   margin: 20px;
+  transform: translateY(10px);
 }
 #linked{
   margin-left: 80px;
-  height: 10px;
-  transform: translateY(10px);
+  height: 10px;  
 }
 
 }
