@@ -10,13 +10,22 @@
   padding: 20px;
 }
 
+.project-modal{
+  padding-top: 10px;
+  display: flex;
+  padding-right: 30px;
+}
+
 .essay-container{
   margin-top: 100px;
 }
 
 .essay-block{
-  height: 50vh;
-  margin: 40px 0 60px;
+  /* height: 60vh; */
+  margin: 40px 0 80px;
+}
+.essay-block .essay2{
+margin-bottom: 40px;
 }
 
 .essay-header, .essay-description{
@@ -64,18 +73,21 @@
 }
 
 /*--------SHARE MODAL-------*/
-
+#share{
+  background-color: transparent;
+  border: none;
+}
 .modal-backdrop{
   position: unset !important;
 }
 .modal {
   background-color: #b47e16;
-  opacity: 90%;
+  opacity: 94%;
 }
 
 .modal-title {
-  font-weight: 900;
-  color: black;
+  font-weight: bold;
+  color: #c26A17;
 }
 
 .modal-content {
@@ -90,6 +102,7 @@
   border-radius: 33px;
   width: 61px;
   height: 61px;
+  filter: none;
 }
 
 .fab:before, .fas:before{

@@ -114,8 +114,8 @@ h1{
 .logo-container{
   float: left;
   margin: 20px;
-  
-}
+  width: 50%;
+  }
 
 .logo-container img{
   width: 100px;
@@ -128,26 +128,29 @@ h1{
 
 .navbar{
   height: 115px;
+  width: 100%; 
+}
+.navbar-container{
+  display: flex;
   width: 100%;
+  justify-content: right;
+  align-items: center;
+  text-align: center;
 }
 
-.nav-links-container{
-  justify-content: center;
-  float: right;
-  margin: 40px;
-  padding: auto;
+.nav-links-container{  
+  margin-top: 20px;
+  padding-right: 40px; 
 }
 
 .nav-links{
   display: flex;
-  width: 100%;
-  justify-content: center;
 }
 
 .nav-links li{
 list-style-type: none;
 margin: 0;
-padding: 5px;
+padding: 0px;
 }
 
 .navbar li a {
@@ -231,13 +234,13 @@ justify-content: space-around;
 
 #envelope, #linked{
   font-size: 54px;
-  font-weight: 100;
-  transform: translateY(10px);
+  font-weight: 100; 
   margin: 20px;
 }
 #linked{
   margin-left: 80px;
   height: 10px;
+  transform: translateY(10px);
 }
 
 }
