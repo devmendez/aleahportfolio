@@ -75,6 +75,22 @@ margin-bottom: 40px;
   cursor: pointer;
 }
 
+.like-btn{
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#icon{
+  width: 5%;
+}
+#count{
+  width: 95%;
+  margin: 0;
+  color: #fff;
+}
+
 /*--------SHARE MODAL-------*/
 #share{
   background-color: transparent;

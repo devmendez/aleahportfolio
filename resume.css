@@ -14,7 +14,7 @@
 }
 
 .education, .feedback{
-  margin-top: 75px;
+  margin-top: 55px;
   width: 500px;
 }
 
@@ -22,8 +22,9 @@
   line-height: 60px;
   margin-top: 60px;
 }
+
 .skills-header, .tools-header{
-  padding-bottom: 30px;
+  margin-bottom: 20px;
 }
 .tools{
   line-height: 60px;
@@ -38,22 +39,22 @@
   height: 70vh;
 }
 
-/*----EDUCATION SECTION---*/
+/*----EDUCATION AND FEEDBACK SECTION---*/
 .education, .feedback{
   padding-left: 20px;
 }
 .education-header-container, .feedback-header{
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 28px;
 }
 
 .education-name-year-container, .feedback-name-year-container{
   display: flex;
 }
 
-.education-school-container{
-  margin-bottom: 40px;
-}
+/* .education-school-container{
+  margin-bottom: 0px;
+} */
 .school-year, .feedback-year{
   margin-left: 40px;
   text-align: right;
