@@ -79,8 +79,10 @@ margin-left: 1.8em;
 
 /*PDF*/
 .pdf{
+  margin: 0;
   padding-left: 40px;
-  padding-top: 8px;
+  padding-top: 24px;
+  text-align: center;
 }
 
 /*------QUOTE-----*/
