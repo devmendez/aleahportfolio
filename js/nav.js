@@ -10,9 +10,9 @@ nav.innerHTML = `
     </div>
     <div class="nav-links-container">
       <ul class="nav-links" id="Navigation">
-        <li><a href="/index.html">About Me</li>
-        <li><a href="/projects.html">Projects</li>
-        <li><a href="/resume.html">Resume</li>
+        <li class="link"><a href="/index.html">About Me</li>
+        <li class="link active"><a href="/projects.html">Projects</li>
+        <li class="link"><a href="/resume.html">Resume</li>
       </ul>
       <div class="menu-icon" onclick="menutoggle()"><i class="fa-solid fa-bars"></i></div>
     </div>
@@ -25,6 +25,17 @@ nav.innerHTML = `
 
 createNav ();
 
+
+//setting the active class to the selected page
+var header = document.getElementById("Navigation");
+var links = header.getElementsByClassName("link");
+for (var i = 0; i < links.length; i++) {
+  links[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
 
 // //Hamburger menu
 // var Navigation = document.getElementById("Navigation");

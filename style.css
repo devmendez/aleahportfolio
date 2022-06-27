@@ -151,6 +151,7 @@ h1{
 list-style-type: none;
 margin: 0;
 padding: 0px;
+font-size: 24px;
 }
 
 .navbar li a {
@@ -158,11 +159,11 @@ padding: 0px;
   color: var(--line-border-empty);
   margin: 0 10px;
 }
-.navbar li a:visited{
+/* .navbar li a:visited{
   filter: drop-shadow(-6px 5px 4px #A67415);
   font-size: 32px;
   font-weight: bold;
-}
+} */
 .navbar li a:hover{
   filter: drop-shadow(-6px 5px 4px #A67415);
   font-size: 32px;
