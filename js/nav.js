@@ -6,13 +6,13 @@ nav.innerHTML = `
 <div class="navbar" id="navbar">
   <div class="navbar-container">
     <div class="logo-container">
-    <img src="./images/ar.png" id="logo" alt="aleah logo">
+    <img src="/images/ar.png" id="logo" alt="aleah logo">
     </div>
     <div class="nav-links-container">
       <ul class="nav-links" id="Navigation">
         <li class="link"><a href="/index.html">About Me</li>
-        <li class="link active"><a href="/projects.html">Projects</li>
-        <li class="link"><a href="/resume.html">Resume</li>
+        <li class="link active"><a href="/html/projects.html">Projects</li>
+        <li class="link"><a href="/html/resume.html">Resume</li>
       </ul>
       <div class="menu-icon" onclick="menutoggle()"><i class="fa-solid fa-bars"></i></div>
     </div>
