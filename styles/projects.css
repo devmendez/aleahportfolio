@@ -1,3 +1,34 @@
+/* mobile view */
+@media only screen and (max-width: 1000px){ 
+/*--------MAIN CONTAINER--------*/
+.main-container{
+  margin: 0 30px 0px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-intro{
+  margin-bottom: 30px;
+}
+
+.essay-block{
+  margin-bottom: 35px;
+}
+
+.essay-social-media{
+  display: flex;
+}
+
+.like-btn{
+  margin-right: 25px;
+}
+#count{
+  padding-left: 15px;
+}
+}
+
+/*-------------------------------------------------------*/
 
 /*desktop view*/
 @media only screen and (min-width: 1000px){
@@ -43,16 +74,19 @@ margin-bottom: 40px;
 .fa-heart, .fa-share-nodes{
   font-size: 40px;
   font-weight: 100;
-  color: #c26A17;
+
 }
 .fa-heart{
   margin-right: 80px;
 }
-#envelope{
+#envelope, #linked{
   transform: translateY(0px); 
 }
 
-
+.fab:before, .fas:before{
+  position: relative;
+  top: 13px;
+}
 
 }
 
@@ -72,6 +106,7 @@ margin-bottom: 40px;
 .fa-heart, .fa-share-nodes{
   filter: drop-shadow(-4px 4px 4px #b47e16);
   cursor: pointer;
+  color: #c26A17;
 }
 
 .like-btn{
@@ -123,10 +158,6 @@ margin-bottom: 40px;
   filter: none;
 }
 
-.fab:before, .fas:before{
-  position: relative;
-  top: 13px;
-}
 
 .smd {
   width: 200px;
