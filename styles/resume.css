@@ -1,3 +1,54 @@
+/* mobile view */
+@media only screen and (max-width: 1000px){ 
+  /*--------MAIN CONTAINER--------*/
+.main-container{
+  margin: 0 30px 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.education-header-container{
+  display: flex;
+}
+
+.pdf{
+  font-size: 20px;
+  margin-left: 65px;
+  padding-top: 7px;
+}
+
+.gpa{
+  margin-bottom: 15px;
+}
+
+.education-school-container{
+  margin-bottom: 15px;
+}
+
+.content2 ul li{
+  list-style-type: disc;
+}
+
+.education, .skills, .feedback, .tools{
+  margin-bottom: 40px;
+}
+
+.feedback-title{
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.quote{
+  margin: 0 30px 30px;
+}
+.air-quotes{
+  margin-bottom: 0;
+}
+.quote-author p{
+  text-align: right;
+}
+}
 
 /*------------------------------------------------*/
 /*desktop view*/
@@ -63,8 +114,11 @@
 .school-1{
   padding-bottom: 20px;
 }
-.year1, .feedback-year{
-  padding-left: 90px;
+.year1{
+  padding-left: 93px;
+}
+.feedback-year{
+  padding-left: 50px;
 }
 .gpa, .feedback-title{
   font-weight: 100;
@@ -104,6 +158,10 @@ margin-left: 1.8em;
   color: #C26A17;
 }
 
+.fab:before, .fas:before{
+  position: relative;
+  top: 13px;
+}
 
 }
 
@@ -123,4 +181,6 @@ margin-left: 1.8em;
   color: #fff;
   text-decoration: none;
 }
+
+
 
