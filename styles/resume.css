@@ -14,7 +14,7 @@
 
 .pdf{
   font-size: 20px;
-  margin-left: 65px;
+  margin-left: 50px;
   padding-top: 7px;
 }
 
@@ -37,6 +37,10 @@
 .feedback-title{
   font-size: 20px;
   margin-bottom: 15px;
+}
+
+.feedback-content ul li{
+  list-style-type: disc;
 }
 
 .quote{
@@ -103,9 +107,6 @@
   display: flex;
 }
 
-/* .education-school-container{
-  margin-bottom: 0px;
-} */
 .school-year, .feedback-year{
   margin-left: 40px;
   text-align: right;
@@ -125,7 +126,7 @@
   margin-bottom: 20px;
 }
 .content2, .feedback-content li{
-margin-left: 1.8em;
+  margin-left: 1.8em;
 }
 .feedback-content li{
   padding-bottom: 40px;

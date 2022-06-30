@@ -22,7 +22,7 @@
        margin: 0;
   }
   .logo-container{
-    width: 100%;
+    width: 50%;
     /* height: auto; */
   }
 
@@ -60,19 +60,14 @@
     background-color: #A67415;
     width: 70%;
     overflow: hidden;
-    transition: max-height 0.5s;
+    transition: 0.5s;
     border: transparent;
-    border-radius: 5px;      
+    border-radius: 5px;    
   }
-
-  .nav-links ul{     
-    width: 100%;
-    margin: 0;
-    list-style-type: none;
-}
 
    .nav-links li{
       display: block;
+      margin: 0;
       padding: 5px 0 5px 10px;
       font-size: 24px;
       width: 100%;
@@ -112,6 +107,7 @@
   max-width: 90%;
   }
 
+ 
 /*-------FOOTER-------*/
 .footer{
   margin: 0px;
@@ -187,8 +183,8 @@ h1{
 
 .nav-links{
   display: inline-flex;
-  margin-top: 0px;
-  padding-right: 40px
+  /* padding-left: 70px;
+  padding-right: 0px */
 }
 
 #Navigation li{
