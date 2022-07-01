@@ -26,11 +26,14 @@
   margin-bottom: 15px;
 }
 
-.content2 ul li{
-  list-style-type: disc;
+.feedback-content ul li, .school-2 ul li, .awards ul li{
+  display: list-item;
+  list-style: disc;
+  margin-left: 1em;
+  
 }
 
-.education, .skills, .feedback, .tools{
+.education, .skills, .feedback, .tools, .awards{
   margin-bottom: 40px;
 }
 
@@ -39,12 +42,8 @@
   margin-bottom: 15px;
 }
 
-.feedback-content ul li{
-  list-style-type: disc;
-}
-
 .quote{
-  margin: 0 30px 30px;
+  margin: 40px 30px 30px;
 }
 .air-quotes{
   margin-bottom: 0;
@@ -65,12 +64,13 @@
   "image education"
   "skills feedback"
   "tools feedback"; 
-  margin: 40px 300px;
+  margin: 40px 250px;
+  padding-left: 60px;
 }
 
-.education, .feedback{
+.education, .feedback, .awards{
   margin-top: 55px;
-  width: 500px;
+  width: 550px;
 }
 
 .skills{
@@ -81,6 +81,11 @@
 .skills-header, .tools-header{
   margin-bottom: 20px;
 }
+
+.skills-content li, .tools-content li{
+  list-style-type: none;
+}
+
 .tools{
   line-height: 60px;
   margin: -160px 0 60px;
@@ -140,6 +145,16 @@
   text-align: center;
 }
 
+/*------AWARDS SECTION------*/
+.awards{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.awards li{
+  margin-left: 1.8em;
+}
+
+
 /*------QUOTE-----*/
 .quote{
  height: 70vh;
@@ -169,9 +184,7 @@
 
 /*--------------------------------------------*/
 /*OUTSIDE OF MEDIA QUERIES*/
-.skills-content li, .tools-content li{
-  list-style-type: none;
-}
+
 
 .school-name, .feedback-name{
   font-weight: bold;

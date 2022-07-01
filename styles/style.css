@@ -76,11 +76,12 @@
   }
 
   .link a{
-    color: #fff;
-   
+    color: #fff;   
   }
+
+
 }
-/*-----------------------------------*/
+/*-----------MOBILE VIEW CONT------------------------*/
 
 @media only screen and (max-width: 1000px){ 
 
@@ -124,9 +125,7 @@
   display: none;
 }
 
-.fas::before, .fab::before{
- font-size: 40px;
-}
+
 }
 
 
