@@ -20,6 +20,12 @@
   display: flex;
 }
 
+.fas::before, .fab::before{
+  font-size: 40px;
+  position: relative;
+   top: 6px;
+ }
+
 .like-btn{
   margin-right: 25px;
 }
