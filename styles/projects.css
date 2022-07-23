@@ -82,9 +82,9 @@ margin-bottom: 40px;
   font-weight: 100;
 
 }
-.fa-heart{
+/* .fa-heart{
   margin-right: 80px;
-}
+} */
 #envelope, #linked{
   transform: translateY(0px); 
 }
@@ -92,6 +92,28 @@ margin-bottom: 40px;
 .fab:before, .fas:before{
   position: relative;
   top: 13px;
+}
+
+.like{
+  display: inline-flex;
+  width: 25%;
+}
+
+input{
+  margin-left: -20px;
+  width: 40%;
+  border: none;
+  outline: none;
+  text-align: center;
+  background: none;
+  font-size: 30px;
+  font-weight: 700;
+  pointer-events: none;
+  color: #fff;
+}
+
+.share{
+  margin-left: -80px;
 }
 
 }

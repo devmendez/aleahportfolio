@@ -1,14 +1,4 @@
-//Bootstrap modal copied message
-// function myCopyFunction() {
-//   var copyText = document.getElementById('myInput');
-//   copyText.select();
-//   copyText.setSelectionRange(0, 99999)
-//   document.execCommand("copy")
-//   $(".message").text("link copied");
-//   };
 
-
-  
 
 const likeBtn = document.querySelector(".like-btn");
 let likeIcon = document.querySelector("#icon"),
@@ -31,3 +21,32 @@ likeBtn.addEventListener("click", (e) => {
 
 
 });
+
+const likeBtnThree = document.querySelector(".like-btn-three");
+let likeIconThree = document.querySelector("#icon-three"),
+  count3 = document.querySelector("#count-three");
+
+let clicked = false;
+
+
+likeBtnThree.addEventListener("click", (e) => {
+  e.preventDefault;
+  if (!clicked) {
+    clicked = true;
+    likeIconThree.innerHTML = `<i class="fa-solid fa-heart"></i>`;
+    count.textContent++;
+  } else {
+    clicked = false;
+    likeIconThree.innerHTML = `<i class="fa-regular fa-heart"></i>`;
+    count3.textContent--;
+  }
+
+
+});
+
+
+// var likeCount = document.querySelector('#likeCount');
+
+// function count(){
+//   likeCount.value = parseInt(likeCount.value) +1;
+// }
