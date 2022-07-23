@@ -21,9 +21,9 @@
 }
 
 .fas::before, .fab::before{
-  /* font-size: 40px;
+  /* font-size: 40px; */
   position: relative;
-   top: 6px; */
+   top: 14px;
  }
 
 .like-btn{
