@@ -130,9 +130,11 @@
   font-weight: 100;
   margin-bottom: 20px;
 }
-.content2, .feedback-content li{
+
+.list{
   margin-left: 1.8em;
 }
+
 .feedback-content li{
   padding-bottom: 40px;
 }
@@ -150,10 +152,6 @@
   margin-left: 20px;
   margin-top: 20px;
 }
-.awards li{
-  margin-left: 1.8em;
-}
-
 
 /*------QUOTE-----*/
 .quote{
