@@ -275,13 +275,8 @@ width: 50%;
 margin-left: 50px;
 }
 
-#envelope{
-  font-size: 58px;
-  font-weight: 100; 
-
-}
-#linked{
-  font-size: 54px;
+#envelope, #linked{
+  font-size: 40px;
   font-weight: 100; 
 }
 
