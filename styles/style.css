@@ -272,7 +272,7 @@ display: flex;
 justify-content: space-evenly;
 align-items: center;
 width: 50%;
-margin-left: 50px;
+margin-left: 30px;
 }
 
 #envelope, #linked{
@@ -280,9 +280,13 @@ margin-left: 50px;
   font-weight: 100; 
 }
 
-.footer-link{
-  font-size: 24px;
+#linked{
+  margin-left: -45px;
 }
+
+/* .footer-link{
+  font-size: 24px;
+} */
 /* .footer-container p{
   display: inline-flex;
   padding-left: 15px; 
