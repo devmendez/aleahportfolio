@@ -17,8 +17,8 @@
 @media only screen and (max-width: 1000px){ 
     #logo{
       width: 70px;
-       height: 50px;
-       padding: 10px 0 0 20px;
+       height: 45px;
+       padding: 0px 0 0 20px;
        margin: 0;
   }
   .logo-container{
@@ -30,10 +30,10 @@
     cursor: pointer;
     width: 35px;
     height: 30px;
-    top: 0;
+    top: 0px;
     right: 0;
     position: absolute;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-right: 5px;
   }
 
