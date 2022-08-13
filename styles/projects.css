@@ -22,7 +22,8 @@
 }
 
 .essay-social-media{
-  display: flex;
+  display: inline-flex;
+ align-items: left;
 }
 
 .essay-genre {
@@ -30,7 +31,10 @@
 }
 
 .fa-file-pdf{
-  margin-right: 40px;
+  margin-right: 20px;
+}
+.fa-share-nodes{
+  margin-left: 20px;
 }
 
 .fas::before, .fab::before{

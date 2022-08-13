@@ -8,12 +8,25 @@
   flex-direction: column;
 }
 
+/* .image {
+  background-size: contain;
+  max-width: 100%;
+} */
+
+img {
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 30px;
+  width: 75%;
+}
+
 .education-header-container{
   display: flex;
 }
 
 .pdf{
-  font-size: 20px;
+  /* font-size: 30px; */
   margin-left: 50px;
   padding-top: 7px;
 }
@@ -93,10 +106,11 @@
 
 
 /*----IMAGE SECTION---*/
-.image-container img{
-  max-width: 90%;
-  margin-top: 40px;
-  height: 70vh;
+.image-container-resume img{
+  max-width: 100%;
+  margin-top: 70px;
+  border: none;
+  box-shadow: -8px 8px #A67415;
 }
 
 /*----EDUCATION AND FEEDBACK SECTION---*/
@@ -140,11 +154,17 @@
 }
 
 /*PDF*/
-.pdf{
+.fa-file-pdf{
+  font-size: 40px;
+  font-weight: 100;
   margin: 0;
   padding-left: 40px;
   padding-top: 28px;
   text-align: center;
+}
+
+.fa-file-pdf {
+  transform: translateY(-5px);
 }
 
 /*------AWARDS SECTION------*/
@@ -187,11 +207,11 @@
 .school-name, .feedback-name{
   font-weight: bold;
 }
-.pdf a{
-  font-weight: bold;
-  filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.5));
-  color: #fff;
-  text-decoration: none;
+
+.fa-file-pdf{
+  filter: drop-shadow(-4px 4px 4px #b47e16);
+  cursor: pointer;
+  color: #c26A17;
 }
 
 

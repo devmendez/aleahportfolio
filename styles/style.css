@@ -116,13 +116,18 @@
 }
 
 .footer-container{
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  align-items: left;
 }
 
 .footer-link{
   display: none;
+}
+
+#envelope {
+  margin-right: 15px;
+}
+#linked {
+  margin-left: 15px;
 }
 
 
@@ -317,6 +322,11 @@ body{
 /*MAIN CONTAINER*/
 .main-container{
   padding-top: 120px;
+}
+
+h1 {
+  font-weight: bold;
+  padding-bottom: 15px;
 }
 
 /*NAVBAR*/
