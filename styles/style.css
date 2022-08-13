@@ -209,7 +209,7 @@ font-size: 24px;
   font-weight: bold;
   background-color: transparent;
 }
-.navbar li a:active{
+.links.active{
   filter: drop-shadow(-6px 5px 4px #A67415);
   font-size: 32px;
   font-weight: bold;

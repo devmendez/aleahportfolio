@@ -26,15 +26,28 @@ createNav ();
 
 
 //setting the active class to the selected page
-// var header = document.querySelector(".nav-links");
-// var links = header.getElementsByClassName("link");
+// const header = document.getElementsByClassName('nav-links');
+// const links = document.querySelectorAll('.link');
+
 // for (var i = 0; i < links.length; i++) {
 //   links[i].addEventListener("click", function() {
-//   var current = document.getElementsByClassName("active");
-//     current[0].className = current[0].className.replace(" active", "");
-//   this.className += " active";
+    
+//   var current = document.classList.add("active");
+//     current[0].className = current[0].className.replace("active", " ");
+//   this.className += "active";
 //   });
 // }
+
+// const toggle = document.getElementById('toggle')
+// const nav = document.getElementById('nav')
+
+// toggle.addEventListener('click', () => nav.classList.toggle('active')
+// )
+
+
+
+
+
 {/* <div class="menu-icon" ><i class="fa-solid fa-bars"></i></div>  */}
 
 //Hamburger menu
