@@ -236,7 +236,7 @@ font-size: 24px;
  max-width: 100%;
 }
 .intro-container p{
-  text-align: center; 
+  text-align: left; 
 }
 
 /*-----PROFILE IMAGE------*/
@@ -244,10 +244,13 @@ font-size: 24px;
   height: auto;
 }
 .image-container{
- height: fit-content;
+ display: block;
+ justify-content: center;
+ align-items: center;
 }
+
 .image-container img{
-  max-width: 35%;
+  max-width: 50%;
   box-shadow: -8px 8px #A67415;
 }
 
