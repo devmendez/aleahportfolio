@@ -18,7 +18,8 @@
 /*--------media query for menu----------*/
 @media only screen and (max-width: 1000px){ 
     #logo{
-      width: 50%;
+      width: 135px;
+      height: 14vh;
        padding: 10px 0 0 20px;
        margin: auto;
   }
@@ -166,13 +167,13 @@ h1{
   }
 
 .logo-container img{
-  width: 100px;
-  height: auto;
+  width: 200px;
+  height: 20vh;
   margin: 40px 0 50px 50px;
   padding-top: 5px;
   position: absolute;
   top: -20px;
-  left: 50px
+  left: 0px
 }
 
 .navbar{
@@ -187,10 +188,17 @@ h1{
   text-align: center;
 }
 
+#Navigation {
+  display: flex;
+  justify-content: center;
+}
+
 .nav-links{
-  display: inline-flex;
-  /* padding-left: 70px;
-  padding-right: 0px */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 130px;
 }
 
 #Navigation li{
@@ -215,8 +223,9 @@ font-size: 24px;
   font-size: 32px;
   font-weight: bold;
   background-color: transparent;
+  transition: 0.4s ease;
 }
-.links.active{
+.link.active{
   filter: drop-shadow(-6px 5px 4px #A67415);
   font-size: 32px;
   font-weight: bold;

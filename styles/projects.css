@@ -85,9 +85,14 @@
 margin-bottom: 40px;
 }
 
-.essay-header, .essay-description{
+.essay-header{
+  padding-bottom: 0px;
+}
+
+.essay-description{
   padding-bottom: 30px;
 }
+
 .essay-genre{
   padding-bottom: 16px;
 }
