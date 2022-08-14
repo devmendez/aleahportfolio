@@ -5,7 +5,7 @@ let nav = document.querySelector('nav');
 nav.innerHTML = `
 <nav class="navbar" id="navbar">  
     <div class="logo-container">
-    <img src="/images/ar.png" id="logo" alt="aleah logo">
+    <a href="/index.html"><img src="/images/ar.png" id="logo" alt="aleah logo"></a>
     </div>      
         <ul id="Navigation">
           <div class="nav-links">
