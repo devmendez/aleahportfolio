@@ -1,3 +1,7 @@
+:root {
+  --icon-color: #00ffc2;
+}
+
 /* mobile view */
 @media only screen and (max-width: 1000px){ 
 /*--------MAIN CONTAINER--------*/
@@ -142,9 +146,9 @@ input{
 }
 
 .fa-heart, .fa-share-nodes, .fa-file-pdf{
-  filter: drop-shadow(-4px 4px 4px #b47e16);
+  filter: drop-shadow(-4px 4px 4px rgba(0, 0, 0, 0.25));
   cursor: pointer;
-  color: #c26A17;
+  color: var(--icon-color);
 }
 
 .like-btn{

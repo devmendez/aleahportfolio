@@ -1,24 +1,36 @@
+:root {
+  --icon-color: #00ffc2;
+}
+
 /* mobile view */
 @media only screen and (max-width: 1000px){ 
   /*--------MAIN CONTAINER--------*/
 .main-container{
   margin: 0 30px 15px;
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 }
 
-/* .image {
-  background-size: contain;
-  max-width: 100%;
-} */
+.main-container{
+  display: grid;
+  grid-template-areas: 
+  "image"
+  "education"
+  "skills"
+  "tools"
+  "feedback";
+  /* margin: 40px 250px; */
+  /* padding-left: 60px; */
+}
 
-img {
+.image-container-resume img {
   display: block;
- margin-left: auto;
- margin-right: auto;
- margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
   width: 75%;
+  box-shadow: -8px 8px rgba(0, 0, 0, 0.25);
 }
 
 .education-header-container{
@@ -39,7 +51,7 @@ img {
   margin-bottom: 15px;
 }
 
-.feedback-content ul li, .school-2 ul li, .awards ul li{
+.education-container ul li, .feedback-content ul li, .school-2 ul li, .awards ul li{
   display: list-item;
   list-style: disc;
   margin-left: 1em;
@@ -60,6 +72,7 @@ img {
 }
 .air-quotes{
   margin-bottom: 0;
+  font-size: 40px;
 }
 .quote-author p{
   text-align: right;
@@ -76,7 +89,7 @@ img {
   grid-template-areas: 
   "image education"
   "skills feedback"
-  "tools feedback"; 
+  "tools feedback";
   margin: 40px 250px;
   padding-left: 60px;
 }
@@ -101,7 +114,8 @@ img {
 
 .tools{
   line-height: 60px;
-  margin: -160px 0 60px;
+  margin: 0px 0 0px;
+  transform: translateY(-550px);
 }
 
 
@@ -110,7 +124,7 @@ img {
   max-width: 100%;
   margin-top: 70px;
   border: none;
-  box-shadow: -8px 8px #A67415;
+  box-shadow: -8px 8px rgba(0, 0, 0, 0.25);
 }
 
 /*----EDUCATION AND FEEDBACK SECTION---*/
@@ -139,6 +153,9 @@ img {
 }
 .feedback-year{
   padding-left: 50px;
+}
+.feedback-year1 {
+  padding-left: 140px;
 }
 .gpa, .feedback-title{
   font-weight: 100;
@@ -189,7 +206,6 @@ img {
 .air-quotes{
   font-size: 80px;
   padding-right: 20px;
-  color: #C26A17;
 }
 
 .fab:before, .fas:before{
@@ -209,10 +225,19 @@ img {
 }
 
 .fa-file-pdf{
-  filter: drop-shadow(-4px 4px 4px #b47e16);
+  filter: drop-shadow(-4px 4px 4px rgba(0, 0, 0, 0.25));
   cursor: pointer;
-  color: #c26A17;
+  color: var(--icon-color);
 }
 
+.air-quotes {
+  color: #fff;
+}
 
+.skills {
+  grid-area: skills;
+}
 
+.tools {
+  grid-area: tools;
+}
