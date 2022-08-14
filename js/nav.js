@@ -10,7 +10,7 @@ nav.innerHTML = `
         <ul id="Navigation">
           <div class="nav-links">
           <li class="link"><a href="/index.html">About Me</li>
-          <li class="link active"><a href="/html/projects.html">Projects</li>
+          <li class="link"><a href="/html/projects.html">Projects</li>
           <li class="link"><a href="/html/resume.html">Resume</li>
           </div>
         </ul>           
