@@ -1,5 +1,5 @@
 :root {
-  --icon-color: #00ffc2;
+  --icon-color: #80ffe0;
 }
 
 /* mobile view */
@@ -181,13 +181,13 @@ input{
   position: unset !important;
 }
 .modal {
-  background-color: #b47e16;
+  background-color: #b29A76;
   opacity: 94%;
 }
 
 .modal-title {
   font-weight: bold;
-  color: #c26A17;
+  color: #6f8688;
 }
 
 .modal-content {
